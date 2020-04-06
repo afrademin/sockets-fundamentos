@@ -15,13 +15,13 @@
 
 
         //Enviar información
-
-        socket.emit('enviarMensaje', {
-            usuario: 'Emin',
-            mensaje: 'Hola mundo'
-        }, function(respuesta) {
-            console.log('respuesta server:', respuesta);
-        });
+        /*
+                socket.emit('enviarMensaje', {
+                    usuario: 'Emin',
+                    mensaje: 'Hola mundo'
+                }, function(respuesta) {
+                    console.log('respuesta server:', respuesta);
+                });*/
 
 
         // Escuchar información
